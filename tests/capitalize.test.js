@@ -1,4 +1,4 @@
-const capitalizeFirstLetter = require('../src/capitalizeString')
+const capitalizeFirstLetter = require('../src/capitalizeFirstLetter')
 
 test('capitalizeFirstLetter should capitalize the first letter of a string', () => {
   expect(capitalizeFirstLetter('hello')).toBe('Hello')
