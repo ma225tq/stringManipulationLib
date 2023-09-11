@@ -6,3 +6,7 @@ const numberedList = require('../src/numberedList')
 const removeWhiteSpaces = require('../src/removeWhiteSpaces')
 const titleCase = require('../src/titleCase')
 const countWords = require('../src/countWords')
+const removeSpecialChars = require('./removeSpecialChars')
+const replaceChar = require('./replaceChar')
+const moveChar = require('./moveChar')
+
