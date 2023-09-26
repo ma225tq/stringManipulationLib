@@ -43,13 +43,13 @@ Some functions require two or more arguments.
 
 ```
 
-const moveChar = require('./moveChar')
+const removeChar = require('../src/removeChar)
 
-let exampleString = 'Hello world , how are you?'
+let exampleString = 'Hello world'
 
-// moveChar(string, charToMove, steps, direction)
+//removeChar(string, charToRemove)
 
-console.log(moveChar(exampleString), ',', '1', 'left') // Output: 'Hello world, how are you?'
+console.log(removeChar(exampleString, 'H')) // Outputs: 'ello World'
 
 
 
