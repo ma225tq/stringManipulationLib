@@ -1,22 +1,20 @@
-function replaceChar(string, charsToReplace, newChar) {
+function replaceChar(string, charToReplace, newChar) {
     if (typeof string !== 'string') {
         throw new Error('string must be a string')
     }
 
-    if (!Array.isArray(charsToReplace)) {
-        throw new Error('charsToReplace must be an array');
+    if (string.length === 0) {
+        throw new Error('string must not be empty')
     }
 
-    if (charsToReplace.length === 0) {
-        throw new Error('charsToReplace must not be empty');
+    if (typeof charToReplace !== 'string') {
+
+        throw new Error('charToReplace must be a string')
+    }
+    if (charToReplace.length !== 1) {
+        throw new Error('charToReplace must be a single character')
     }
 
-
-    for (let i = 0; i < charsToReplace.length; i++) {
-        if (typeof charsToReplace[i] !== 'string') {
-            throw new Error('charsToReplace must be an array of strings only')
-        }
-    }
 
     if (typeof newChar !== 'string') {
         throw new Error('newChar must be a string')
@@ -29,7 +27,7 @@ function replaceChar(string, charsToReplace, newChar) {
     let manipulatedString = ''
 
     for (let i = 0; i < string.length; i++) {
-        if (charsToReplace.includes(string[i])) {
+        if (charToReplace.includes(string[i])) {
             manipulatedString += newChar;
         } else {
             manipulatedString += string[i];

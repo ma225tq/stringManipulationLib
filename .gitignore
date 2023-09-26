@@ -171,6 +171,7 @@ dist
 # Serverless Webpack directories
 .webpack/
 
+notes.md
 
 # Optional stylelint cache
 

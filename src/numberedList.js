@@ -1,4 +1,4 @@
-function numberedList(string) {
+function makeStringNumbered(string) {
     if (typeof string !== 'string') {
         throw new Error('Input must be a string')
     }
@@ -8,4 +8,4 @@ function numberedList(string) {
     .join('\n');
 }
 
-module.exports = numberedList;
+module.exports = makeStringNumbered;

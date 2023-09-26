@@ -1,4 +1,24 @@
 function moveChar(string, charToMove, steps, direction) {
+  if (typeof string !== 'string') {
+    throw new Error('Input must be a string')
+  }
+
+  if (typeof charToMove !== 'string') {
+    throw new Error('Character to move must be a string')
+  }
+
+  if (typeof steps !== 'number') {
+    throw new Error('Steps must be a number')
+  }
+
+  if (steps <= 0) {
+    throw new Error('Steps must be a positive number')
+  }
+
+  if (typeof direction !== 'string') {
+    throw new Error('Direction must be a string')
+  }
+  
   let result = string.split('')
   const indices = []
 
