@@ -25,7 +25,7 @@ function alphabeticalOrder(array) {
     } else {
       return 0
     }
-  }).join(' ')
+  }).join('\n')
 
     return manipulatedString
 }

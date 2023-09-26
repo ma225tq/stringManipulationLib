@@ -10,6 +10,3 @@ const removeSpecialChars = require('./removeSpecialChars')
 const replaceChar = require('./replaceChar')
 const moveChar = require('./moveChar')
 const alphabeticalOrder = require('./alphabeticalOrder')
-
-
-
