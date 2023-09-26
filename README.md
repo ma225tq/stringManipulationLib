@@ -19,7 +19,7 @@
 **kebabCase** - Convert a string to kebab-case\
 **camelCase** - Convert a string to camelCase\
 **snakeCase** - Convert a string to snake_case\
-**titleCase** Convert a String to Title Case\
+**titleCase** Convert a String to Title Case
 
 ## Usage
 
@@ -35,7 +35,7 @@ let exampleString = 'Hello world'
 
 // titleCase(string)
 
-console.log(titleCase(exampleString) // Outputs: 'Hello World'
+console.log(titleCase(exampleString)) // Outputs: 'Hello World'
 
 ```
 
@@ -49,7 +49,7 @@ let exampleString = 'Hello world , how are you?'
 
 // moveChar(string, charToMove, steps, direction)
 
-console.log(moveChar(exampleString, ',', '1', 'left') // Output: 'Hello world, How are you?'
+console.log(moveChar(exampleString), ',', '1', 'left') // Output: 'Hello world, how are you?'
 
 
 

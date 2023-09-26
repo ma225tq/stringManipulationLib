@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.6.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/MelkerAndreasson"
   }
+  
 }
