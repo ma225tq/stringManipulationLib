@@ -2,7 +2,8 @@ Jag är lite dålig på att läsa långa instruktioner och skrev det mesta innan
 
 Jag tycker dock att jag lärt mig en hel del av boken och workshopen. 
 
-Alla funktioner har felhantering för att verifiera att inputen är av rätt typ. (JavaScript är ju underbart på det sättet.) Detta hade kunnat brytas ut till egna funktioner så slipper man alla fula kodblock med felhantering. (DO ONE THING!) Dessutom är felmeddelandena lite inkonsekventa. Ibland står det “string must be a String” och ibland “Input must be a string”. 
+Alla funktioner har validering för att verifiera att inputen är av rätt typ. (JavaScript är ju underbart på det sättet.) Detta hade kunnat brytas ut till egna funktioner så slipper man alla fula kodblock med felhantering. (DO ONE THING!) Dessutom är felmeddelandena lite inkonsekventa. Ibland står det “string must be a String” och ibland “Input must be a string”. Lite felhantering för om något skulle gå fel hade också varit bra. 
+
 
 # Kapitel 2
 

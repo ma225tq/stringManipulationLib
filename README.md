@@ -1,6 +1,8 @@
 # String Manipulation
 
-*String Manipulation* is a lightweight library for some common string manipulation tasks.
+*String Manipulation* (name change incoming) is a lightweight library for some common string manipulation tasks.
+
+I am yet to publish it to npm so it's used by downloading or cloning the Github repo.
 
 ### Features
 
