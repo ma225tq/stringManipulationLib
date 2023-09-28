@@ -17,28 +17,9 @@ Alla funktioner har felhantering för att verifiera att inputen är av rätt typ
 
 I många funktioner har jag en variabel som heter manipulatedString. Det säger inte så mycket, det borde stå hur den blivit “manipulerad”. Även result är ett dåligt namn som inte säger någonting.
 
-|  Function name              | Test method(s)                                                         
-|-----------------------------|--------------------------------------------------------------------------------|--------------------|
-| camelCase                   | Checked conversion to camelCase for various different inputs.                           | 
-|                             | Tested error handling for inputs of incorrect types.                                   |                    |
-| capitalizeFirstLetter       | Checked capitalization of first letter for various different strings.                    | 
-                           | Tested error handling for inputs of incorrect types.                                   |                    |
-| countWords                  | Checked the word count of strings.                                                 | 
-|                             | Tested error handling for inputs of incorrect types.                                   |                    |
-| kebabCase                   | Checked conversion to kebab-case for various inputs.                           |
-|                             | Tested error handling for inputs of incorrect types.                                   |                    |
-| lineBreakAfterEachWord      | Checked if a line break was added after each word.                             | 
-|                             | Tested error handling for inputs of incorrect types.                                   |                    |
-| numberedList                | Checked if a number was added before each word.                                |
-|                             | Tested error handling for inputs of incorrect types                                   |                    |
-| removeChar                  | Checked removal of specified character from a string.                          |
-|                             | Tested error handling for inputs of incorrect types.   |                    |
-| removeWhiteSpaces           | Checked removal of all white spaces from a string.                             |
-|                             | Tested error handling for inputs of incorrect types.                                   |                    |
-| snakeCase                   | Checked conversion to snake_case for various inputs.                       |
-|                             | Tested error handling for inputs of incorrect types.                                 |                    |
-| titleCase                   | Checked capitalization of the first letter of each word, exluding specified words.                       | Passed     |
-|                             | Tested error handling for inputs of incorrect types.                                   |                    |
-| truncate                    | Checked truncation of a string to the given length.                            |
-|                             | Tested error handling for inputs of incorrect types.                                 |                    |
-
+| Namn på funktion / variabel | Reflektion |
+|----------|----------|
+| moveChar  | Det är inte tydligt vad den gör mer än “flytta ett tecken”. Vad det betyder är rätt oklart. Tanken är att man ska kunna välja ett tecken i en sträng och flytta den ett bestämt antal steg, antingen åt höger eller vänster. Kanske hade moveCharacterInString varit ett mer “intention-revealing” namn. Funktionen i övrigt har också sina brister, t.ex krävs 4 argument. Dödssynd enligt kapitel 3 och jag håller med om att det blir krångligt.  |
+| removeChar  | removeCharacterFromString är tydligare.   |
+| alphabeticalOrder m.fl  | Vissa funktion-namn är substantiv och vissa verb. Funktioner bör ju enbart vara verb. T.ex alphabeticalOrder och alla funktioner som heter slutar på -case; camelCase, kebabCase m.fl. sortStringsByFirstLetter respektive ändra till att sluta på -casify hade varit bättre. Eller kanske bara convertToWhateverCase (det var ju inget fel med längre namn enligt boken) om casify låter för töntigt.   |
+| manipulatedString  | Det säger inte så mycket, det borde stå hur den blivit “manipulerad”. Även result är ett dåligt namn som inte säger någonting.  |
