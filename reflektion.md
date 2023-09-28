@@ -16,3 +16,29 @@ Alla funktioner har felhantering för att verifiera att inputen är av rätt typ
 
 
 I många funktioner har jag en variabel som heter manipulatedString. Det säger inte så mycket, det borde stå hur den blivit “manipulerad”. Även result är ett dåligt namn som inte säger någonting.
+
+|  Function name              | Test method(s)                                                         
+|-----------------------------|--------------------------------------------------------------------------------|--------------------|
+| camelCase                   | Checked conversion to camelCase for various different inputs.                           | 
+|                             | Tested error handling for inputs of incorrect types.                                   |                    |
+| capitalizeFirstLetter       | Checked capitalization of first letter for various different strings.                    | 
+                           | Tested error handling for inputs of incorrect types.                                   |                    |
+| countWords                  | Checked the word count of strings.                                                 | 
+|                             | Tested error handling for inputs of incorrect types.                                   |                    |
+| kebabCase                   | Checked conversion to kebab-case for various inputs.                           |
+|                             | Tested error handling for inputs of incorrect types.                                   |                    |
+| lineBreakAfterEachWord      | Checked if a line break was added after each word.                             | 
+|                             | Tested error handling for inputs of incorrect types.                                   |                    |
+| numberedList                | Checked if a number was added before each word.                                |
+|                             | Tested error handling for inputs of incorrect types                                   |                    |
+| removeChar                  | Checked removal of specified character from a string.                          |
+|                             | Tested error handling for inputs of incorrect types.   |                    |
+| removeWhiteSpaces           | Checked removal of all white spaces from a string.                             |
+|                             | Tested error handling for inputs of incorrect types.                                   |                    |
+| snakeCase                   | Checked conversion to snake_case for various inputs.                       |
+|                             | Tested error handling for inputs of incorrect types.                                 |                    |
+| titleCase                   | Checked capitalization of the first letter of each word, exluding specified words.                       | Passed     |
+|                             | Tested error handling for inputs of incorrect types.                                   |                    |
+| truncate                    | Checked truncation of a string to the given length.                            |
+|                             | Tested error handling for inputs of incorrect types.                                 |                    |
+
