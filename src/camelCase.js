@@ -15,5 +15,4 @@ function camelCase(string) {
     })
     .join('')
 }
-
 module.exports = camelCase
