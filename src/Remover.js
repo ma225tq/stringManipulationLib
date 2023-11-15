@@ -1,4 +1,4 @@
-class Remove {
+export class Remove {
   removeChar(string, charToRemove) {
     if (typeof string !== 'string') {
       throw new Error('string must be a string')

@@ -1,12 +1,16 @@
-const removeSpecialChars = require('./removeSpecialChars')
-const removeSpecialChars = require('./removeSpecialChars')
+// const removeSpecialChars = require('./removeSpecialChars')
+// const removeSpecialChars = require('./removeSpecialChars')
+import { Remove } from './Remover.jss
 
-class Case {
+export class CaseChanger {
+
+  #removeSpecialChars = new Remove()
+
   camelCase(string) {
     if (typeof string !== 'string') {
       throw new Error('Input must be a string')
     }
-    string = removeSpecialChars(string)
+    string = this.#removeSpecialChars(string)
     return string
       .split(' ')
       .map((word, index) => {
@@ -22,7 +26,7 @@ class Case {
     if (typeof string !== 'string') {
       throw new Error('Input must be a string')
     }
-    string = removeSpecialChars(string)
+    string = this.#removeSpecialChars(string)
     return string.replace(/\s/g, '-').toLowerCase()
   }
 
@@ -30,7 +34,7 @@ class Case {
     if (typeof string !== 'string') {
       throw new Error('Input must be a string')
     }
-    string = removeSpecialChars(string)
+    string = this.#removeSpecialChars(string)
     return string.replace(/\s/g, '_').toLowerCase()
   }
 
@@ -109,3 +113,5 @@ class Case {
     return words.join(' ')
   }
 }
+
+
