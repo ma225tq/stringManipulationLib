@@ -3,7 +3,7 @@ import { Remover } from './Remover.js';
 export class CaseChanger {
 	#remover = new Remover();
 
-	camelCase(string) {
+	convertToCamelCase(string) {
 		if (typeof string !== 'string') {
 			throw new Error('Input must be a string');
 		}
@@ -19,7 +19,7 @@ export class CaseChanger {
 			.join('');
 	}
 
-	kebabCase(string) {
+	convertToKebabCase(string) {
 		if (typeof string !== 'string') {
 			throw new Error('Input must be a string');
 		}
@@ -27,7 +27,7 @@ export class CaseChanger {
 		return string.replace(/\s/g, '-').toLowerCase();
 	}
 
-	snakeCase(string) {
+	convertToSnakeCase(string) {
 		if (typeof string !== 'string') {
 			throw new Error('Input must be a string');
 		}
@@ -35,7 +35,7 @@ export class CaseChanger {
 		return string.replace(/\s/g, '_').toLowerCase();
 	}
 
-	titleCase(string) {
+	convertToTitleCase(string) {
 		if (typeof string !== 'string') {
 			throw new Error('Input must be a string');
 		}

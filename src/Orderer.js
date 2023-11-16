@@ -1,4 +1,4 @@
-export class Order {
+export class Orderer {
 	orderAlphabetically(array) {
 		if (!Array.isArray(array)) {
 			throw new Error('array must be an array');
@@ -30,5 +30,15 @@ export class Order {
 			.join('\n');
 
 		return manipulatedString;
+	}
+
+	makeStringNumbered(string) {
+		if (typeof string !== 'string') {
+			throw new Error('Input must be a string');
+		}
+	
+		return string.split(' ')
+			.map((word, index) => `${index + 1}. ${word}`)
+			.join('\n');
 	}
 }
