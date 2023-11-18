@@ -1,7 +1,10 @@
-import { CaseChanger } from './CaseChanger.js';
+
+import { WordCounter } from './WordCounter.js';
+
+const wordCounter = new WordCounter();
+
+console.log(wordCounter.countWords(''));
 
 
-const caseChanger = new CaseChanger();
 
-console.log(caseChanger.camelCase('JavaScript testing'));
 
