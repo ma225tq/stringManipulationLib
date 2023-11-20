@@ -69,3 +69,9 @@ Open an Issue: Navigate to the 'Issues' tab in this repository and click on 'New
 Direct contributions are currently not accepted. Please feel free to open issues if you want to suggest features or improvements.
 
 Thank you.
+
+## License
+
+
+The library is licensed under the MIT license, which in short means you can use, modify, and distribute the software in a commercial or non-commerical product without any restrictions.
+The software does not come with any guarantees. Please see the official license description (here)[./LICENSE]
