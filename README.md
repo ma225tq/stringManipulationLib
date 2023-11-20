@@ -51,7 +51,7 @@ let exampleString = 'Hello world'
 
 //removeChar(string, charToRemove)
 
-console.log(removeChar(exampleString, 'H')) // Outputs: 'ello World'
+console.log(removeChar(exampleString, 'H')) // Outputs: 'ello world'
 
 
 
