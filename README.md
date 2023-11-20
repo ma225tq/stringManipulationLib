@@ -29,7 +29,7 @@ Import and use the needed function.
 
 E.g.
 
-```
+```javascript
 
 const titleCase = require('../src/titleCase')
 
@@ -43,7 +43,7 @@ console.log(titleCase(exampleString)) // Outputs: 'Hello World'
 
 Some functions require two or more arguments.
 
-```
+```javascript
 
 const removeChar = require('../src/removeChar)
 
