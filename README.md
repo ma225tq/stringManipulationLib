@@ -54,6 +54,18 @@ let exampleString = 'Hello world'
 console.log(removeChar(exampleString, 'H')) // Outputs: 'ello world'
 
 
-
-
 ```
+
+## Bug Reporting and Contributions
+
+#Reporting Bugs
+
+If you encounter any bugs, please feel free to report them in the following way:
+
+Open an Issue: Navigate to the 'Issues' tab in this repository and click on 'New Issue'. Please provide a detailed description of the bug, including steps to reproduce it and, if neccesssary, logs or screenshots.
+
+#Contributions
+
+Direct contributions are currently not accepted. Please feel free to open issues if you want to suggest features or improvements.
+
+Thank you.
