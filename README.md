@@ -74,4 +74,4 @@ Thank you.
 
 
 The library is licensed under the MIT license, which in short means you can use, modify, and distribute the software in a commercial or non-commerical product without any restrictions.
-The software does not come with any guarantees. Please see the official license description (here)[./LICENSE]
+The software does not come with any guarantees. Please see the official license description [here.](./LICENSE)
