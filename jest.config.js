@@ -8,5 +8,10 @@ export default {
 	setupFilesAfterEnv: [
 		'jest-extended/all',
 		'jest-chain'
-	]
+	],
+	
+	reporters: [
+		'default',
+		['jest-html-reporter', {'pageTitle': 'Test Report'
+		}]]
 };
