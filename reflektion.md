@@ -42,7 +42,8 @@ Det är rätt många funktioner som behöver importeras vilket kan vara jobbigt.
 
 Det uppstod en liten diskussion i huruvida "char" ska uttalas "schar" eller "cár" som i början på "character". Att förkorta det till char är kanske onödigt.
 
-Funktionen moveChar är dessutom för komplicerad och tar för många argument. 
+Funktionen moveChar är dessutom för komplicerad och tar för många argument.
+
 Felhanteringen skulle kunna brytas ut då det är en del upprepning i varje funktion.
 
 Det finns inga kommentarer.
