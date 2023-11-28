@@ -58,7 +58,7 @@ console.log(removeChar(exampleString, 'H')) // Outputs: 'ello world'
 
 ## Automatic unit tests
 
-The unit tests are ran with the command $ npm test.
+The unit tests are ran with the command $ npm test. A report will appear in the form of an html file.
 
 ## Bug Reporting and Contributions
 
