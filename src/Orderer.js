@@ -1,18 +1,7 @@
 export class Orderer {
 	orderAlphabetically(array) {
-		if (!Array.isArray(array)) {
-			throw new Error('array must be an array');
-		}
 
-		if (array.length === 0) {
-			throw new Error('array must not be empty');
-		}
-
-		for (let i = 0; i < array.length; i++) {
-			if (typeof array[i] !== 'string') {
-				throw new Error('array must be an array of strings only');
-			}
-		}
+		this.#validateInputforOrderAlphabetically(array);
 
 		let manipulatedString = array
 			.sort((a, b) => {
@@ -33,12 +22,32 @@ export class Orderer {
 	}
 
 	makeStringNumbered(string) {
-		if (typeof string !== 'string') {
-			throw new Error('Input must be a string');
-		}
-	
+		this.#validateInputforMakeStringNumbered(string);
+		
 		return string.split(' ')
 			.map((word, index) => `${index + 1}. ${word}`)
 			.join('\n');
+	}
+
+	#validateInputforOrderAlphabetically(array) {
+		if (!Array.isArray(array)) {
+			throw new Error('array must be an array');
+		}
+
+		if (array.length === 0) {
+			throw new Error('array must not be empty');
+		}
+
+		for (let i = 0; i < array.length; i++) {
+			if (typeof array[i] !== 'string') {
+				throw new Error('array must be an array of strings only');
+			}
+		}
+	}	
+
+	#validateInputforMakeStringNumbered(string) {
+		if (typeof string !== 'string') {
+			throw new Error('Input must be a string');
+		}
 	}
 }
